@@ -1,0 +1,75 @@
+Create a maven project 
+
+Maven is  project management software it is based on POM (project object model)
+
+
+2013 
+
+  Struts 
+   jar files 
+
+  JDBC  --   mysql5 
+
+Problems :
+Adding jar files in project 
+Creating project structure
+Building and deploying 
+
+
+
+
+Creating maven project
+----------------------
+Goto files --> new project --> others--> maven --> maven project
+Select default workspace next 
+Catalog internal ---> maven -archetype-quickstart --> enter following details
+
+Groupid
+artifactid
+
+finish 
+ask for confirmation type Y
+
+<tags>
+   <c1>   </c1>
+   <---t1--->
+     <x>   </x>
+
+   </---t1--->
+</tags>
+
+<x>     </x>
+< x           />
+
+0.0.0   0.0.1  =   0.1.1 =>  1.0.0
+majorversion.minorversion.patchversion
+
+Scopes :
+Compile : dependencies are available on classpath of the project  in all build task.
+Provided : dependencies are provided at runtime by jdk or container .
+Runtime:  are required at runtime
+test : required for  test purpose
+system
+import
+
+Maven repository
+
+
+Adding lombok to eclipse
+
+Step 1:  Add dependency of lombok from maven repo
+<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.28</version>
+    <scope>provided</scope>
+</dependency>
+
+Step 2 : Goto location lombok jar  run executable jar 
+Step 3: browse location of eclipse.exe click install and update
+Step 4: Restart eclipse
+
+
+
+ 
