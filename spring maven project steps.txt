@@ -1,0 +1,12 @@
+create maven project
+add dependency of spring core and spring context
+create bean - java pojo
+select folder right click go to others select xml  -- givename - select template and finish
+create config.xml file (in java/src folder not inside any package)
+Main file  add applicationcontext to read from config.xml
+
+DI  using xml
+
+setter method
+constructor 
+
