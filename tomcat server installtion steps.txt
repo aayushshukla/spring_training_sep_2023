@@ -1,0 +1,10 @@
+window -->  show view  --> others --> search server   
+
+in server window  --- > add server -- > select tomcat --> select v9 --> go to browse option --> go to the path of tomcat server --> finish
+
+http://localhost:8080
+
+protocol:// server location : portno
+
+8080 default port no for tomcat server
+
