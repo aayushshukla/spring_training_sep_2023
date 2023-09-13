@@ -1,0 +1,29 @@
+polymorphism
+inheritance 
+encapsulation
+abstraction
+
+class -- it is template / it is blue print 
+object - it is an instance of a class .
+         it is an real world entity that have state and behaviour.
+
+
+
+class ClassName 
+
+Classnamae start from uppercase
+keywords are written in  lowercase
+camelcase  toString , toUpperCase
+
+Package - collection of classess / interface 
+package name is in lowercase
+
+access modifiers:
+public
+private  no classes can not be private .methods, variables can be. it is accessible only in given class.
+default  by default every class , method and variable are default in java.Scope within a package
+protected   no classes can not be protectedhave within a package 
+            but can be access outside a package if class is a child class
+final
+static
+
