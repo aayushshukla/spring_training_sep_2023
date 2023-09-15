@@ -1,0 +1,16 @@
+Constructor : it intialise object
+
+It have same name as a class name.
+
+It does not have a return type. 
+
+Constructor invokes automatically at time object creation
+
+Constructor can not be inherited the be invoked by using super() constructor.
+
+Default Constructor : it is created automatically if there is no user defined
+constructor
+
+User Defined constructor :  it is manually defined by user 
+
+without param , with params
