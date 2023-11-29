@@ -15,7 +15,7 @@ import com.example.LibraryApp.entity.Books;
 //If SC LoadBalancer is availableit will be used to load balance the backend req
 // give url of the api that u want to consume
 // step3
-@FeignClient(name="books",url="http://localhost:8081/")
+@FeignClient(name="BOOK-SERVICE")
 public interface LibraryProxy {
 	// method declarion  should be same 
   @GetMapping("/allbooksinfo")  // give the same request as original api
